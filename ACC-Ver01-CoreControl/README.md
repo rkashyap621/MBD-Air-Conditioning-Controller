@@ -453,7 +453,7 @@ results/ACC_Ver01_CoreControl_Requirements_Consistency_Check_Report.pdf
 | Selection-based link-description consistency | Pass |
 | Path-type consistency | Pass |
 
-Overall result:
+### Overall result
 
 ```text
 4 checks passed
@@ -629,7 +629,7 @@ Active cooling
 
 ![Round 3 Scope](results/ACC_Ver01_CoreControl_r3_Fault_Activation_and_Reset_to_Power_Off_Scope_Results.png)
 
-### Selected evidence-
+### Selected evidence
 
 | Checkpoint | Chart | Symbols Pane | Top-Level Model |
 |---|---|---|---|
