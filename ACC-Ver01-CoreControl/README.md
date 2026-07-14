@@ -725,24 +725,24 @@ Evidence:
 
 | Verification Item | Requirement Coverage | Status |
 |---|---|---|
-| System initialization | ACC-REQ-001 | Pass |
-| Temperature setpoint handling | ACC-REQ-002 | Pass |
-| Power ON behavior | ACC-REQ-003 | Pass |
-| Power OFF behavior | ACC-REQ-004 | Pass |
-| Cooling-demand activation | ACC-REQ-005 | Pass |
-| Cooling-demand deactivation | ACC-REQ-006 | Pass |
-| Compressor minimum-OFF-time protection | ACC-REQ-007 | Pass |
-| Compressor activation | ACC-REQ-008 | Pass |
-| Compressor deactivation | ACC-REQ-009 | Pass |
-| Fan activation during compressor operation | ACC-REQ-010 | Pass |
-| Fan run-on after compressor deactivation | ACC-REQ-011 | Pass |
-| Generic fault activation | Supporting Ver. 01 behavior | Pass |
-| Reset blocked while fault remains active | Supporting Ver. 01 behavior | Pass |
-| Fault reset to Power Off | Supporting Ver. 01 behavior | Pass |
-| Fault reset to Power On | Supporting Ver. 01 behavior | Pass |
-| Requirement authoring and linking | ACC-REQ-001 to ACC-REQ-011 | Pass |
-| Requirements consistency check | Requirements Toolbox checks | Pass |
-| Traceability matrix generation | Requirements to implementation | Pass |
+| System initialization | ACC-REQ-001 | ✅ Pass |
+| Temperature setpoint handling | ACC-REQ-002 | ✅ Pass |
+| Power ON behavior | ACC-REQ-003 | ✅ Pass |
+| Power OFF behavior | ACC-REQ-004 | ✅ Pass |
+| Cooling-demand activation | ACC-REQ-005 | ✅ Pass |
+| Cooling-demand deactivation | ACC-REQ-006 | ✅ Pass |
+| Compressor minimum-OFF-time protection | ACC-REQ-007 | ✅ Pass |
+| Compressor activation | ACC-REQ-008 | ✅ Pass |
+| Compressor deactivation | ACC-REQ-009 | ✅ Pass |
+| Fan activation during compressor operation | ACC-REQ-010 | ✅ Pass |
+| Fan run-on after compressor deactivation | ACC-REQ-011 | ✅ Pass |
+| Generic fault activation | Supporting Ver. 01 behavior | ✅ Pass |
+| Reset blocked while fault remains active | Supporting Ver. 01 behavior | ✅ Pass |
+| Fault reset to Power Off | Supporting Ver. 01 behavior | ✅ Pass |
+| Fault reset to Power On | Supporting Ver. 01 behavior | ✅ Pass |
+| Requirement authoring and linking | ACC-REQ-001 to ACC-REQ-011 | ✅ Pass |
+| Requirements consistency check | Requirements Toolbox checks | ✅ Pass |
+| Traceability matrix generation | Requirements to implementation | ✅ Pass |
 
 ---
 
