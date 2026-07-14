@@ -123,7 +123,7 @@ ACC-Ver01-CoreControl/
 ### Parameters
 
 | Parameter | Value | Purpose |
-|---|---:|---|
+| --- |--- | --- |
 | `temperature_hysteresis_band` | `7.5` | Defines the positive and negative temperature-error thresholds used for cooling-demand activation and deactivation. |
 | `compressor_min_off_time` | `15 s` | Prevents compressor restart immediately after compressor shutdown. |
 | `fan_run_on_time` | `120 s` | Keeps the fan running after compressor deactivation before the fan is turned OFF. |
