@@ -504,7 +504,7 @@ Round 1 verifies basic power-state behavior without active cooling demand.
 
 ### Scope result
 
-![Round 1 Scope](results/ACC_Ver01_CoreControl_r1_Power_On_Off_Without_Cooling_Demand_Scope_Results.png)
+![Round 1 Scope](results/ACC_Ver01_CoreControl_r1_Power_On_Off_without_Cooling_Demand_Scope_Results.png)
 
 ### State evidence
 
