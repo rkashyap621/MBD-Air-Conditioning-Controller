@@ -163,7 +163,7 @@ This produces hysteresis between the activation and deactivation thresholds and 
 
 The top-level Simulink model contains dashboard-style controls for power, desired temperature, room temperature, generic fault activation, and fault reset.
 
-The Stateflow controller outputs are routed to a grouped AC controller output display and to a Scope block for simulation verification.
+The Stateflow controller outputs are routed to a grouped AC controller output Scope block for simulation verification.
 
 ![Top-Level Simulink Model](images/ACC_Ver01_CoreControl_Top_Level_Model.png)
 
