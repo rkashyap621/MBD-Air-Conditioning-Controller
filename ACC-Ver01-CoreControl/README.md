@@ -548,7 +548,7 @@ The test includes:
 
 ![Round 2 Core Controller Scope](results/ACC_Ver01_CoreControl_r2_Core_Controller_Scope_Results.png)
 
-![Round 2 Lockout Scope](results/ACC_Ver01_CoreControl_r2_Compressor_Restart_Lockout_During_Minimum-OFF_Time_Scope_Results.png)
+![Round 2 Lockout Scope](results/ACC_Ver01_CoreControl_r2_Compressor_Restart_Lockout_During_Minimum_OFF_Time_Scope_Results.png)
 
 ### Approximate Simulation Timeline
 
