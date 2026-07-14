@@ -629,7 +629,7 @@ Active cooling
 
 ![Round 3 Scope](results/ACC_Ver01_CoreControl_r3_Fault_Activation_and_Reset_to_Power_Off_Scope_Results.png)
 
-Selected evidence:
+### Selected evidence-
 
 | Checkpoint | Chart | Symbols Pane | Top-Level Model |
 |---|---|---|---|
@@ -655,7 +655,7 @@ Selected evidence:
 
 Round 4 verifies valid recovery from `Fault_State` to `Power_On`.
 
-Sequence:
+### Sequence
 
 ```text
 Active cooling
@@ -672,7 +672,7 @@ Active cooling
 
 ![Round 4 Scope](results/ACC_Ver01_CoreControl_r4_Fault_Activation_and_Reset_to_Power_On_Scope_Results.png)
 
-Selected evidence:
+### Selected evidence
 
 | Checkpoint | Chart | Symbols Pane | Top-Level Model |
 |---|---|---|---|
@@ -709,7 +709,7 @@ It verifies:
 - all consistency checks pass
 - the traceability matrix reflects the final Ver. 01 model
 
-Evidence:
+### Evidence
 
 - [Chart with links](images/ACC_Ver01_CoreControl_r5_Chart_with_Links.png)
 - [Requirements with links](images/ACC_Ver01_CoreControl_r5_Requirements_with_Links.png)
