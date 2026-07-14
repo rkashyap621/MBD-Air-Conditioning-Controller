@@ -513,7 +513,7 @@ Round 1 verifies basic power-state behavior without active cooling demand.
 | Power Off initialization | [Power Off](images/ACC_Ver01_CoreControl_Chart_r1_Power_Off_Initialization.png) |
 | Power On | [Power On](images/ACC_Ver01_CoreControl_Chart_r1_Power_On.png) |
 | Power On to Power Off | [Power Off transition](images/ACC_Ver01_CoreControl_Chart_r1_Power_On_to_Power_Off.png) |
-| Symbols pane | [Power state values](images/ACC_Ver01_CoreControl_Chart_r1_Symbols_Pane_Power_Off_Power_On_Without_Cooling_Demand.png) |
+| Symbols pane | [Power state values](images/ACC_Ver01_CoreControl_Chart_r1_Symbols_Pane_Power_Off_Power_On_without_Cooling_Demand.png) |
 
 ### Key observations
 
