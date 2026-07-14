@@ -374,7 +374,7 @@ Ver. 01 implements eleven requirements.
 | Requirement ID | Requirement Name | Summary |
 |---|---|---|
 | ACC-REQ-001 | System Initialization | Controller enters `Power_Off` with safe outputs after startup. |
-| ACC-REQ-002 | Temperature Setpoint Input | Controller uses `set_temperature` as the desired room-temperature reference. |
+| ACC-REQ-002 | Temperature Setpoint Input | Controller updates `set_temperature` from the desired room-temperature input. |
 | ACC-REQ-003 | Power ON Command | Controller enters enabled operation, calculates temperature error, and evaluates cooling demand. |
 | ACC-REQ-004 | Power OFF Command | Controller enters `Power_Off` and turns OFF compressor and fan. |
 | ACC-REQ-005 | Cooling Demand Activation | Controller activates cooling demand when the positive hysteresis threshold is reached. |
