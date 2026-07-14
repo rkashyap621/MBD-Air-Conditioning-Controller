@@ -78,7 +78,7 @@ ACC-Ver01-CoreControl/
 |   |-- ACC_Ver01_CoreControl_Requirements.slreqx
 |   `-- ACC_Ver01_CoreControl~mdl.slmx
 |-- results/
-|   |-- ACC_Ver01_CoreControl_r1_Power_On_Off_Without_Cooling_Demand_Scope_Results.png
+|   |-- ACC_Ver01_CoreControl_r1_Power_On_Off_without_Cooling_Demand_Scope_Results.png
 |   |-- ACC_Ver01_CoreControl_r2_Core_Controller_Scope_Results.png
 |   |-- ACC_Ver01_CoreControl_r2_Compressor_Restart_Lockout_During_Minimum_OFF_Time_Scope_Results.png
 |   |-- ACC_Ver01_CoreControl_r3_Fault_Activation_and_Reset_to_Power_Off_Scope_Results.png
