@@ -1138,32 +1138,32 @@ Automatic Mode with active cooling
 
 | Verification Item | Requirement Coverage | Status |
 |---|---|---|
-| System initialization | ACC-REQ-001 | Pass |
-| Temperature setpoint handling | ACC-REQ-002 | Pass |
-| Power ON behavior | ACC-REQ-003 | Pass |
-| Power OFF behavior | ACC-REQ-004 | Pass |
-| Cooling-demand activation | ACC-REQ-005 | Pass |
-| Cooling-demand deactivation | ACC-REQ-006 | Pass |
-| Compressor minimum-OFF-time protection | ACC-REQ-007 | Pass |
-| Compressor activation | ACC-REQ-008 | Pass |
-| Compressor deactivation | ACC-REQ-009 | Pass |
-| Fan activation during compressor operation | ACC-REQ-010 | Pass |
-| Fan run-on after compressor deactivation | ACC-REQ-011 | Pass |
-| Default Power-On Standby | ACC-REQ-012 | Pass |
-| Fan-only Mode | ACC-REQ-013 | Pass |
-| Cooling Mode | ACC-REQ-014 | Pass |
-| Automatic Mode | ACC-REQ-015 | Pass |
-| Automatic fan-speed selection | ACC-REQ-016 | Pass |
-| Manual fan-speed selection and override | ACC-REQ-017 | Pass |
-| Compressor-lockout status | ACC-REQ-018 | Pass |
-| Fresh cooling-control activation lockout | ACC-REQ-019 | Pass |
-| Generic fault activation | Supporting Ver. 02 behavior | Pass |
-| Invalid reset blocking | Supporting Ver. 02 behavior | Pass |
-| Valid reset to Power-On Standby | Supporting Ver. 02 behavior | Pass |
-| Valid reset to Power Off | Supporting Ver. 02 behavior | Pass |
-| Requirement authoring and linking | ACC-REQ-001 to ACC-REQ-019 | Pass |
-| Requirements consistency check | Requirements Toolbox checks | Pass |
-| Traceability matrix generation | Requirements to implementation | Pass |
+| System initialization | ACC-REQ-001 | ✅ Pass |
+| Temperature setpoint handling | ACC-REQ-002 | ✅ Pass |
+| Power ON behavior | ACC-REQ-003 | ✅ Pass |
+| Power OFF behavior | ACC-REQ-004 | ✅ Pass |
+| Cooling-demand activation | ACC-REQ-005 | ✅ Pass |
+| Cooling-demand deactivation | ACC-REQ-006 | ✅ Pass |
+| Compressor minimum-OFF-time protection | ACC-REQ-007 | ✅ Pass |
+| Compressor activation | ACC-REQ-008 | ✅ Pass |
+| Compressor deactivation | ACC-REQ-009 | ✅ Pass |
+| Fan activation during compressor operation | ACC-REQ-010 | ✅ Pass |
+| Fan run-on after compressor deactivation | ACC-REQ-011 | ✅ Pass |
+| Default Power-On Standby | ACC-REQ-012 | ✅ Pass |
+| Fan-only Mode | ACC-REQ-013 | ✅ Pass |
+| Cooling Mode | ACC-REQ-014 | ✅ Pass |
+| Automatic Mode | ACC-REQ-015 | ✅ Pass |
+| Automatic fan-speed selection | ACC-REQ-016 | ✅ Pass |
+| Manual fan-speed selection and override | ACC-REQ-017 | ✅ Pass |
+| Compressor-lockout status | ACC-REQ-018 | ✅ Pass |
+| Fresh cooling-control activation lockout | ACC-REQ-019 | ✅ Pass |
+| Generic fault activation | Supporting Ver. 02 behavior | ✅ Pass |
+| Invalid reset blocking | Supporting Ver. 02 behavior | ✅ Pass |
+| Valid reset to Power-On Standby | Supporting Ver. 02 behavior | ✅ Pass |
+| Valid reset to Power Off | Supporting Ver. 02 behavior | ✅ Pass |
+| Requirement authoring and linking | ACC-REQ-001 to ACC-REQ-019 | ✅ Pass |
+| Requirements consistency check | Requirements Toolbox checks | ✅ Pass |
+| Traceability matrix generation | Requirements to implementation | ✅ Pass |
 
 ---
 
