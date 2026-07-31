@@ -1288,7 +1288,7 @@ The controller demonstrates:
 - Valid recovery to Power-On Standby
 - Valid recovery to Power Off
 
-The implementation is supported by nineteen authored requirements, linked Stateflow elements, four successful consistency checks, a generated traceability matrix, fourteen retained scope-result images, and seven rounds of behavioral simulation verification.
+The implementation is supported by nineteen authored requirements, linked Stateflow elements, a requirements consistency-check run in which all four check categories passed, a generated traceability matrix, fourteen retained scope-result images, and seven rounds of behavioral simulation verification.
 
 Ver. 02 provides the operating-mode foundation required for the next development stage, where sensor plausibility, operating-temperature monitoring, timeout faults, and fault-specific recovery logic can be introduced.
 
