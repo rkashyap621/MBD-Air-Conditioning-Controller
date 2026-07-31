@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements Ver. 02 of a requirement-based Air Conditioning Controller using MATLAB, Simulink, Stateflow, and Requirements Toolbox.
+This project implements Ver. 02 of a requirements-based Air Conditioning Controller using MATLAB, Simulink, Stateflow, and Requirements Toolbox.
 
 Ver. 02 extends the verified core controller developed in Ver. 01 by introducing operating-mode supervision, manual and automatic fan-speed control, manual override in Automatic Mode, cross-mode transition handling, and fresh compressor lockout whenever cooling control is re-enabled.
 
@@ -1129,7 +1129,7 @@ Automatic Mode with active cooling
 
 ---
 
-## Verification Summary
+## Manual Simulation Verification Summary
 
 | Verification Item | Requirement Coverage | Status |
 |---|---|---|
@@ -1199,7 +1199,7 @@ Explicit fault-state and Power-Off clearing of supervisory status outputs is pla
 
 This version demonstrates:
 
-- Requirement-based extension of an existing Stateflow controller
+- Requirements-based extension of an existing Stateflow controller
 - Preservation of an earlier verified control baseline
 - Hierarchical operating-mode supervision
 - Parallel Stateflow mechanism coordination
@@ -1255,7 +1255,7 @@ These items are reserved for later controller versions and the subsequent valida
 
 ## Version Progression
 
-| Version | Planned focus |
+| Version | Development focus |
 |---|---|
 | Ver. 01 | Core control logic, temperature hysteresis, compressor protection, fan run-on, and generic fault-path verification |
 | Ver. 02 | Operating-mode selection, automatic and manual fan-speed control, cross-mode transitions, and fresh cooling-control lockout |
