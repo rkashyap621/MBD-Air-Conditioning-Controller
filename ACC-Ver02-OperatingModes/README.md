@@ -1246,7 +1246,7 @@ Ver. 02 does not include:
 - Explicit clearing of all supervisory mode-status outputs during `Power_Off`
 - Dedicated controller-status output
 - Top-level controller-status display
-- Formal Simulink Test test harness
+- Formal `Simulink Test` test harness
 - Test Manager execution
 - Automated pass/fail assessments
 - Code-generation workflow
