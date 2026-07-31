@@ -80,14 +80,9 @@ Ver. 02 covers:
 ```text
 ACC-Ver02-OperatingModes/
 |-- images/
-|   |-- model_and_stateflow_architecture_images
-|   |-- operating_mode_verification_images
-|   |-- cooling_control_verification_images
-|   |-- fan_speed_verification_images
-|   |-- fault_and_reset_verification_images
-|   |-- requirements_linking_images
-|   |-- requirements_consistency_check_images
-|   `-- requirements_traceability_matrix_images
+|   `-- 196 retained model, Stateflow, Symbols pane,
+|       verification, requirements-linking, consistency-check,
+|       and traceability screenshots
 |-- model/
 |   `-- ACC_Ver02_Operating_Modes.slx
 |-- requirements/
@@ -832,7 +827,7 @@ Round 1 verifies inherited Power-Off and Power-On behavior before operating-mode
 
 ![Round 1 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Cooling_Control_Scope_Results.png)
 
-![Round 1 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Temperature_Hysterisis_Scope_Results.png)
+![Round 1 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Temperature_Hysteresis_Scope_Results.png)
 
 
 ### Selected evidence
@@ -873,7 +868,7 @@ Power_On_Standby
 
 ![Round 2 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Cooling_Control_Scope_Results.png)
 
-![Round 2 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Temperature_Hysterisis_Scope_Results.png)
+![Round 2 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Temperature_Hysteresis_Scope_Results.png)
 
 
 ### Selected evidence
@@ -912,7 +907,7 @@ Round 3 verifies Fan-only Mode and manual speed selection.
 
 ![Round 3 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Cooling_Control_Scope_Results.png)
 
-![Round 3 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Temperature_Hysterisis_Scope_Results.png)
+![Round 3 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Temperature_Hysteresis_Scope_Results.png)
 
 
 ### Selected evidence
@@ -957,7 +952,7 @@ Round 4 verifies that Cooling Mode preserves the Ver. 01 core-control behavior.
 
 ![Round 4 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Cooling_Control_Scope_Results.png)
 
-![Round 4 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Temperature_Hysterisis_Scope_Results.png)
+![Round 4 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Temperature_Hysteresis_Scope_Results.png)
 
 ### Approximate timing checks
 
@@ -1011,7 +1006,7 @@ Round 5 verifies Automatic Mode and automatic fan-speed selection.
 
 ![Round 5 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Cooling_Control_Scope_Results.png)
 
-![Round 5 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Temperature_Hysterisis_Scope_Results.png)
+![Round 5 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Temperature_Hysteresis_Scope_Results.png)
 
 
 ### Selected evidence
@@ -1055,7 +1050,7 @@ Round 6 verifies Automatic Mode manual override and cross-mode behavior.
 
 ![Round 6 Cooling-Control Scope](results/ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Cooling_Control_Scope_Results.png)
 
-![Round 6 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Temperature_Hysterisis_Scope_Results.png)
+![Round 6 Temperature-Hysteresis Scope](results/ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Temperature_Hysteresis_Scope_Results.png)
 
 
 ### Selected evidence
@@ -1169,7 +1164,10 @@ Automatic Mode with active cooling
 
 ## Observability and Requirement-Scope Note
 
-Ver. 02 explicitly resets the physical cooling-control outputs during `Fault` and `Power_Off`:
+Ver. 02 explicitly assigns the safety-priority control and diagnostic
+outputs during `Fault` and `Power_Off`.
+
+The physical cooling-control outputs are forced to safe values:
 
 ```text
 cooling_demand
@@ -1177,7 +1175,6 @@ compressor_on
 compressor_lockout
 fan_on
 fan_speed_cmd
-fault_indicator
 ```
 
 However, the Ver. 01 and Ver. 02 requirements do not explicitly require the following operating-mode and internal supervisory values to be cleared in those top-level states:
