@@ -92,19 +92,19 @@ ACC-Ver02-OperatingModes/
 |   `-- ACC_Ver02_Operating_Modes~mdl.slmx
 |-- results/
 |   |-- ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Automatic_Manual_Override_and_Cross_Mode_Transitions_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Core_Power_Off_Power_On_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Fault_Activation_and_Reset_Regression_Verification_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Fault_Activation_and_Reset_Regression_Verification_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Fault_Activation_and_Reset_Regression_Verification_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Power_On_Automatic_Mode_Operating_Mode_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Power_On_Cooling_Mode_Operating_Mode_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Power_On_Fan_Only_Operating_Mode_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Cooling_Control_Scope_Results.png
-|   |-- ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Temperature_Hysterisis_Scope_Results.png
+|   |-- ACC_Ver02_Operating_Modes_Power_On_Standby_and_Power_On_Operating_Mode_Temperature_Hysteresis_Scope_Results.png
 |   |-- ACC_Ver02_Operating_Modes_Requirements.pdf
 |   |-- ACC_Ver02_Operating_Modes_Requirements_Consistency_Check_Report.html
 |   |-- ACC_Ver02_Operating_Modes_Requirements_Consistency_Check_Report.pdf
